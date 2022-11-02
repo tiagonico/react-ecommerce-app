@@ -2,7 +2,7 @@ import { Send } from '@mui/icons-material'
 import styled from 'styled-components'
 
 const Container = styled.div`
-  height: 60hv;
+  height: 60vh;
   background-color: #fcf5f5;
   display: flex;
   align-items: center;
