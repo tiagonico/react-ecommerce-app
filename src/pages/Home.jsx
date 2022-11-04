@@ -1,5 +1,5 @@
 import React from 'react'
-import Annoucement from '../components/Annoucement'
+import Announcement from '../components/Announcement'
 import Categories from '../components/Categories'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>      
       <Navbar/>
-      <Annoucement/>
+      <Announcement/>
       <Slider/>
       <Categories/>
       <Products/>

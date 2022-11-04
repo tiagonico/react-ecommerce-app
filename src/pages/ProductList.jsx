@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Annoucement from '../components/Annoucement'
+import Announcement from '../components/Announcement'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Newsletter from '../components/Newsletter'
@@ -41,7 +41,7 @@ const ProductList = () => {
   return (
     <Container>
       <Navbar />
-      <Annoucement />
+      <Announcement />
       <Title>Dresses</Title>
       <FilterContainer> 
         <Filter>

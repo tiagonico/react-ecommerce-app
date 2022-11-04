@@ -1,6 +1,6 @@
 import { Add, Remove } from '@mui/icons-material'
 import styled from 'styled-components'
-import Annoucement from '../components/Annoucement'
+import Announcement from '../components/Announcement'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Newsletter from '../components/Newsletter'
@@ -100,7 +100,7 @@ const Product = () => {
   return (
     <Container>
       <Navbar />
-      <Annoucement />
+      <Announcement />
       <Wrapper>
         <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
