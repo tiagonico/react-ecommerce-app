@@ -9,30 +9,21 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  Navigate
 } from "react-router-dom";
 
 const App = () => {
-
+  const user = true
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home/>}  />
-      </Routes>
-      <Routes>
+        <Route index element={<Home/>}  />
         <Route path="/products/:category" element={<ProductList/>}  />
-      </Routes>
-      <Routes>
         <Route path="/product/:id" element={<Product/>}  />
-      </Routes>
-      <Routes>
         <Route path="/cart" element={<Cart/>}  />
-      </Routes>
-      <Routes>
-        <Route path="/login" element={<Login/>}  />
-      </Routes>
-      <Routes>
-        <Route path="/register" element={<Register/>}  />
+        <Route path="/login" element={user ? <Navigate to="/"/> : <Login/>}  />
+        <Route path="/register" element={user ? <Navigate to="/"/> : <Register/>}  />
       </Routes>
     </Router>
   )

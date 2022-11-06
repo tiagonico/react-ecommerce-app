@@ -27,16 +27,19 @@ export const categories = [
     id: 1,
     img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "SHIRT STYLE!",
+    cat: "man"
   },
   {
     id: 2,
     img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "LOUNGEWEAR LOVE",
+    cat: "woman"
   },
   {
     id: 3,
     img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     title: "LIGHT JACKETS",
+    cat: "unisex"
   },
 ];
 
@@ -67,7 +70,7 @@ export const popularProducts = [
   },
   {
     id:7,
-    img:"https://www.freepnglogos.com/uploads/t-shirt-png/t-shirt-png-combed-cotton-crew-neck-shirt-cross-stitch-25.png",
+    img:"https://www.pngplay.com/wp-content/uploads/12/Basic-T-Shirt-PNG-Pic-Background.png",
   },
   {
     id:8,
